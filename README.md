@@ -1,2 +1,2 @@
 # citation-screening-ml
-This work intended to explore the problem of automating citation screening using machine-learning to accelerate the process of generating systematic reviews.
+This work intended to explore the problem of automating citation screening using machine-learning to accelerate the process of generating systematic reviews. It considers citation screening as a binary classification problem whereby a searched study is either "included" for generating a systematic review or is "excluded". The input data used for citation screening could be found here. https://drive.google.com/file/d/14_-NNapaA2SvAxekAAW55zSZo9jSToVN/view?usp=sharing
