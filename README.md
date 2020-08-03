@@ -1,7 +1,7 @@
 # citation-screening-ml
 This work intended to explore the problem of automating citation screening using machine-learning thereby accelerating the process of generating [systematic reviews](https://en.wikipedia.org/wiki/Systematic_review#:~:text=Systematic%20reviews%20are%20a%20type,synthesize%20findings%20qualitatively%20or%20quantitatively.). Manual process of citation screening involves two reviewers manually screening the searched studies using some "inclusion" and "exclusion" criteria. If the study passes the "inclusion" criteria, it is included for further analysis or is excluded. As apparant through manual screening process, we consider citation screening as a binary classification problem whereby any ML (machine learning) classifier could be trained to separate the searched studies into these two classes (__include__ and __exclude__).
 
-The input data used for citation screening could be found [here](https://drive.google.com/file/d/14_-NNapaA2SvAxekAAW55zSZo9jSToVN/view?usp=sharing). This dataset was manually labelled into __include__ and __exclude__ by Hilfiker _et al._. The file consists of 25,540 data samples, with each data sample separated by a new line. It is a tab separated file and the data in it is structured as follows. 
+The input data used for citation screening could be found [here](https://drive.google.com/file/d/14_-NNapaA2SvAxekAAW55zSZo9jSToVN/view?usp=sharing). This dataset was manually labelled into __include__ and __exclude__ by Hilfiker _et al._ and @someAdjectiveNoun. The file consists of 25,540 data samples, with each data sample separated by a new line. It is a tab separated file and the data in it is structured as follows. 
 
 
 | Title         | PMID          | Abstract text  | Class  | MeSH terms (separated by a pipe __"&#124;"__) |
@@ -21,6 +21,7 @@ If you use this dataset in your research, please cite our papers,
    Pages="302--306",
    Month="Jun"
 }
+
 % 28501804 
 @Article{pmid28501804,
    Author="Hilfiker, R.  and Meichtry, A.  and Eicher, M.  and Nilsson Balfe, L.  and Knols, R. H.  and Verra, M. L.  and Taeymans, J. ",
