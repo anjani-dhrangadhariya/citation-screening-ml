@@ -10,7 +10,8 @@ The input data used for citation screening could be found [here](https://drive.g
 
 If you use this dataset, please cite our paper
 
-> % 32570395 
+```
+% 32570395 
 @Article{pmid32570395,
    Author="Dhrangadhariya, A.  and Hilfiker, R.  and Schaer, R.  and M?ller, H. ",
    Title="{{M}achine {L}earning {A}ssisted {C}itation {S}creening for {S}ystematic {R}eviews}",
@@ -20,3 +21,4 @@ If you use this dataset, please cite our paper
    Pages="302--306",
    Month="Jun"
 }
+```
