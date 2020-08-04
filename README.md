@@ -13,7 +13,7 @@ If you use this dataset in your research, please cite our papers,
 ```
 % 32570395 
 @Article{pmid32570395,
-   Author="Dhrangadhariya, A.  and Hilfiker, R.  and Schaer, R.  and M?ller, H. ",
+   Author="Dhrangadhariya, A.  and Hilfiker, R.  and Schaer, R.  and Mueller, H. ",
    Title="{{M}achine {L}earning {A}ssisted {C}itation {S}creening for {S}ystematic {R}eviews}",
    Journal="Stud Health Technol Inform",
    Year="2020",
